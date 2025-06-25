@@ -11,7 +11,7 @@ if __name__ == "__main__":
           """)
 
     # Kullanıcıdan işlem seçmesini istiyoruz
-    process = input("Bir işlem seçiniz (1/2/3): ")
+    process = input("Bir işlem seçiniz: ")
 
     try:
         if process == "1":
