@@ -55,5 +55,8 @@ if __name__ == "__main__":
         elif process == "3":
             print("Çıkılıyor...")
 
+        else:
+            print("Lütfen geçerli bir işlem giriniz!!!")
+
     except FileNotFoundError:
         print("Dosyanız bulunamadı.")
